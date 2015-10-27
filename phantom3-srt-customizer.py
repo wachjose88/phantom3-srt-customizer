@@ -218,8 +218,11 @@ def main():
     for s in subs:
         t = ''
         for token in re.split(' |\n', s.text):
-            if args.barometer or args.ultrasonic:
-                t += filter_height(token=token, ultrasonic=args.ultrasonic,
+            if args.barometer:
+                t += filter_height(token=token, ultrasonic=False,
+                                   use_label=args.label)
+            if args.ultrasonic:
+                t += filter_height(token=token, ultrasonic=True,
                                    use_label=args.label)
             if args.date:
                 t += filter_date(token=token, use_label=args.label)

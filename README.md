@@ -55,5 +55,5 @@ DJI_0001.c.SRT:
     ...
     66
     00:01:06,000 --> 00:01:07,000
-    Date: 2015.10.18; Time: 12:23:23; Duration: 01:05; Speed: 11.12m/s; Height (u): 10.2m;
+    Date: 2015.10.18; Time: 12:23:23; Duration: 01:05; Speed: 11.12m/s; Height (b): 45.9m; Height (u): 10.2m;
     ...
